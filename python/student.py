@@ -1,0 +1,6 @@
+n=input("enter name")
+r=int(input("enter roll\n"))
+m=float(input("enter mark"))
+print("name is",n)
+print("roll is",r)
+print("mark is",m)
