@@ -1,0 +1,10 @@
+print("Enter principal")
+p=int(input())
+print("Enter rate")
+r=int(input())
+print("Enter time")
+t=int(input())
+print("Enter no of time compounded")
+n=int(input())
+CI=p*(1+r/n)**(n*t)-p
+print("Compounr interest=",CI)

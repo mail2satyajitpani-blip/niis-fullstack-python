@@ -1,0 +1,10 @@
+print("Enter x1")
+x1=float(input())
+print("Enter y1")
+y1=float(input())
+print("Enter x2")
+x2=float(input())
+print("Enter y2")
+y2=float(input())
+d=((x2-x1)**2+(y2-y1)**2)*0.5
+print("Distance=",d)

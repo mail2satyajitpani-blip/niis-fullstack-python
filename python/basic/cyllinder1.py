@@ -1,0 +1,6 @@
+print("Enter radius")
+r=float(input())
+print("Enter height")
+h=float(input())
+A=2*3.14*r*(r+h)
+print("Surface area=",A)
