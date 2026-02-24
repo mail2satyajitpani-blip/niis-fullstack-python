@@ -1,0 +1,9 @@
+print("Enter a number")
+n=int(input())
+if n==0:
+	print("zero")
+else:	
+ 	 if n>0:
+ 	   print("+ve")
+ 	 else:
+ 	   print("-ve")
