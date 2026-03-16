@@ -1,0 +1,10 @@
+print("Enter two numbers")
+n1=int(input())
+n2=int(input())
+print("Enter your choice\n1.add\n2.sub\n3.mult")
+ch=int(input())
+match ch:
+  case 1:print("SUM=",n1+n2)
+  case 2:print("SUB=",n1-n2)
+  case 3:print("MULTIPLICATION=",n1*n2)
+  case _:print("INVALID CHOICE")
