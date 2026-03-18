@@ -1,0 +1,10 @@
+L=[4,7,8.9,"hi"]
+L1=L.copy()
+print(L1)
+L1.append(78)
+print(L1)
+print(L)
+print(id(L))
+print(id(L1))
+L.append(78)
+print(L)
